@@ -1,0 +1,12 @@
+[submodule "symbols/_official"]
+	path = symbols/_official
+	url = https://gitlab.com/kicad/libraries/kicad-symbols.git
+[submodule "footprints/_official"]
+	path = footprints/_official
+	url = https://gitlab.com/kicad/libraries/kicad-footprints.git
+[submodule "packages3d/_official"]
+	path = packages3d/_official
+	url = https://gitlab.com/kicad/libraries/kicad-packages3d.git
+[submodule "templates/_official"]
+	path = templates/_official
+	url = https://gitlab.com/kicad/libraries/kicad-templates.git
