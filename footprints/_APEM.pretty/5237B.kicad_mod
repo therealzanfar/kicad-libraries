@@ -1,0 +1,129 @@
+(footprint "5237B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dabfdf09-10ce-4726-883c-51519a39fcf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "5237B"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d60cb118-ec1f-4f5a-9088-96409c3cbf4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0850ec33-dbd2-44aa-80d4-179a0af7a037")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4076be2-0311-48d2-b92f-108351b6bf32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2625f17-01f9-4aeb-bfb8-fd794d390111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 6.5913 3.4925)
+		(end -6.5913 -3.44678)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4140449d-0f7b-474c-b027-fd3d220865a4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2df76343-e6c9-424d-941b-9bc7e426899a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -4.699 0)
+		(size 3.2004 3.2004)
+		(drill 1.6002)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "8171605b-4c6b-44ac-b8a8-63f8eb883e7a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3.2004 3.2004)
+		(drill 1.6002)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a44c17f1-4b81-4389-b935-92f79a5f7230")
+	)
+	(pad "3" thru_hole circle
+		(at 4.699 0)
+		(size 3.2004 3.2004)
+		(drill 1.6002)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "933d2c0d-e37d-4095-b34d-ee43b3c294c5")
+	)
+	(model "D:/electronics/kicad_libraries/3d_models/APEM/5237adgbx408.stp"
+		(offset
+			(xyz 0 0 12.319)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
+)
